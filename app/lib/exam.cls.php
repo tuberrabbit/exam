@@ -44,6 +44,8 @@ class examAction extends initAction {
 	public function save(){
 		$data = json_decode(file_get_contents('php://input'), true);
 		$where['id']= array('eq', $data['id']);
+		//todo: need change time when modify exam question...
+//		$data['dt_create'] = time();
 		$m = M('exams');
 		$rs = $m->where($where)->data($data)->update();
 
