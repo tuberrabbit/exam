@@ -1,5 +1,4 @@
 #Online Examination
-#Author blog: [@formatcc](http://weibo.com/formatcc)
 
 #versions
 * 1.1
